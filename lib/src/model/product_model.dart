@@ -8,14 +8,7 @@ class ProductsModel {
   bool isFavourite;
   ProductsModel(
       {this.id, this.name, this.image, this.price, this.isFavourite = false});
-  // factory ProductsModel.fromJson(Map<String, dynamic> json) {
-  //   return ProductsModel(
-  //       id: json['id'],
-  //       name: json['name'],
-  //       price: json['price'],
-  //       image: json['image'],
-  //       isFavourite: json['isFavourite']);
-  // }
+ 
 
   static List<ProductsModel> generateProduct = [
     ProductsModel(

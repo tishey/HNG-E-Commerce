@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hng_task_two_ecommerce/main.dart';
 import 'package:hng_task_two_ecommerce/src/model/product_model.dart';
 import 'package:hng_task_two_ecommerce/src/view/checkout_page.dart';
+import 'package:hng_task_two_ecommerce/src/view/home_page.dart';
 
 class AppBottomNav extends StatefulWidget {
   const AppBottomNav({super.key});

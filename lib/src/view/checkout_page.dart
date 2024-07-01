@@ -8,7 +8,8 @@ class CheckoutPage extends StatefulWidget {
   final Function onClearCart;
 
   const CheckoutPage(
-      {required this.selectedProducts,
+      {super.key,
+      required this.selectedProducts,
       required this.onRemoveProduct,
       required this.onClearCart});
 
@@ -24,7 +25,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
       _isLoading = true;
     });
 
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 2));
 
     setState(() {
       _isLoading = false;
